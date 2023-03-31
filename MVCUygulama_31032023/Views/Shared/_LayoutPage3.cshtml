@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<div class="block2" style="width:600px;">
+   @RenderBody() 
+</div>
+<div class="block2" style="float:right">
+    <h4>İletişim Bilgileri</h4>
+    <ul>
+        <li>0535 235 45 56</li>
+        <li>0542 458 78 89</li>
+        @RenderSection("linkler",false)
+    </ul>
+
+</div>
